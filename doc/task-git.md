@@ -1,6 +1,6 @@
-³]©w Git
+è¨­å®š Git
 ========
-#§Q¥Î¤U­±ªº«ü¥O¨Ó³]©w name ¤Îemail
+åˆ©ç”¨ä¸‹é¢çš„æŒ‡ä»¤ä¾†è¨­å®š name åŠemail
 ```
 $ git config --global user.name "username"
 $ git config --global user.email "useremail"
