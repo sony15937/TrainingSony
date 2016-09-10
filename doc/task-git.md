@@ -27,3 +27,27 @@ $ git add file01.txt
 ```
 $ git commit -m "新增第一個檔案"
 ```
+#建立Branch
+若有一個功能或是 bug 需要修正時，會先建立 branch 避免影響 master 的程式碼，以下指令為切換至名為 dev-1 的 branch
+```
+git branch dev-1
+```
+#建立 branch 並且 checkout
+建立完新的branch 後，直接切換至該branch
+```
+$ git checkout -b dev-1 
+```
+#切換分支（branch）
+目前在 branch dev-1 以下指令為 checkout 回 master
+```
+git checkout master
+```
+#刪除branch
+-刪除已經merge過的branch(無法刪除尚未merge過的branch)
+```
+git branch -d dev-1
+```
+-強制刪除branch(可刪除尚未merge過的branch)
+```
+git branch -D dev-1
+```
