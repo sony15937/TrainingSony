@@ -16,3 +16,8 @@ $ git init
 ```
 $ git clone https://github.com/sony15937/TrainingSony.git
 ```
+#新增檔案並追蹤
+在目錄下手動新增一份檔案為file01.txt，並輸入下列指令加入追蹤，告知 git 有檔案要做版本控制之意：
+```
+$ git add file01.txt
+```
