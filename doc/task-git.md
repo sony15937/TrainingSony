@@ -51,3 +51,20 @@ git branch -d dev-1
 ```
 git branch -D dev-1
 ```
+#Push和Pull
+-查看remote
+```
+git remote -v
+```
+-新增remote
+```
+git remote add upstream https://github.com/TCU-MI/TrainingSony.git
+```
+-將本機端所修改的內容同步至github上指定的branch
+```
+git push origin dev-1
+```
+-將github上指定branch的內容同步至本機端
+```
+git pull upstream master
+```
