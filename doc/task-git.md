@@ -21,3 +21,9 @@ $ git clone https://github.com/sony15937/TrainingSony.git
 ```
 $ git add file01.txt
 ```
+#交付一個動作
+交付指令：'commit'
+參數：'-m "交付訊息填在這裡"'
+```
+$ git commit -m "新增第一個檔案"
+```
