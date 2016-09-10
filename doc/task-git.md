@@ -6,12 +6,12 @@ $ git config --global user.name "username"
 $ git config --global user.email "useremail"
 ```
 #建立一個新的Repository
--自己建立一個新的 Repository
+- 自己建立一個新的 Repository
 首先會先建立一個目錄命名為：`TrainingXiuan`，接者將目錄切換到`TrainingXiuan`輸入以下指令：
 ```
 $ git init
 ```
--Clone(複製)別人的 Repository
+- Clone(複製)別人的 Repository
 複製github上他人專案網址到自己的目錄下輸入以下指令:
 ```
 $ git clone https://github.com/sony15937/TrainingSony.git
@@ -43,28 +43,28 @@ $ git checkout -b dev-1
 git checkout master
 ```
 #刪除branch
--刪除已經merge過的branch(無法刪除尚未merge過的branch)
+- 刪除已經merge過的branch(無法刪除尚未merge過的branch)
 ```
 git branch -d dev-1
 ```
--強制刪除branch(可刪除尚未merge過的branch)
+- 強制刪除branch(可刪除尚未merge過的branch)
 ```
 git branch -D dev-1
 ```
 #Push和Pull
--查看remote
+- 查看remote
 ```
 git remote -v
 ```
--新增remote
+- 新增remote
 ```
 git remote add upstream https://github.com/TCU-MI/TrainingSony.git
 ```
--將本機端所修改的內容同步至github上指定的branch
+- 將本機端所修改的內容同步至github上指定的branch
 ```
 git push origin dev-1
 ```
--將github上指定branch的內容同步至本機端
+- 將github上指定branch的內容同步至本機端
 ```
 git pull upstream master
 ```
